@@ -24,15 +24,17 @@
             "url":"https://mscom.experiencecloud.adobe.com/assets.html/content/dam/mac/mscom/target-assets",
             "passConfig":true,
             "passReferrer": true,
+            "isPallete": true,
             "excludePaths": [
                 "**/fr/**"
             ],
             "includePaths":[
                 "**.docs**",
                 "**/fr/blocks/**"
-            ]
-
+            ],
+            "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
         },
+       
         {
             "id":"tools",
             "title":"Tools",
