@@ -32,7 +32,7 @@
             "includePaths":[
                 "**.docs**",
                 "**/fr/blocks/**"
-            ],
+            ]
           
         },
        
