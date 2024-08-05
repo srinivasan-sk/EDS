@@ -18,6 +18,22 @@
 
         },
         {
+            "id":"assets",
+            "title":"Assets",
+            "environments":["edit","dev","preview","live","prod"],
+            "url":"https://mscom.experiencecloud.adobe.com/assets.html/content/dam/mac/mscom/target-assets",
+            "passConfig":true,
+            "passReferrer": true,
+            "excludePaths": [
+                "**/fr/**"
+            ],
+            "includePaths":[
+                "**.docs**",
+                "**/fr/blocks/**"
+            ]
+
+        },
+        {
             "id":"tools",
             "title":"Tools",
             "isContainer":true
